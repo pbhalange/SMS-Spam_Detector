@@ -74,12 +74,6 @@ Open your web browser and go to ```bash http://127.0.0.1:8000/ ``` to use the ap
 2. **Enter SMS Text**: Input the SMS message you want to classify.
 3. **Prediction**: The app will display if the message is spam or ham and the confidence level.
 
-## Template Details
-
-- **`index.html`**: The main landing page for the application.
-- **`home.html`**: The page where users can input SMS messages and get predictions.
-- **`navbar.html`**: A reusable navigation bar included in all pages.
-
 ## Model Details
 
 - **`CountVectorizer.pkl`**: Used for converting SMS messages into numerical features.
@@ -91,10 +85,3 @@ Open your web browser and go to ```bash http://127.0.0.1:8000/ ``` to use the ap
 - **Model Enhancements**: Experiment with advanced models such as LSTMs.
 - **Integration**: Extend to support messaging platforms for real-time spam detection.
 
-## Contributing
-
-Feel free to contribute by creating issues, submitting pull requests, or enhancing the project documentation.
-
-## License
-
-This project is licensed under the MIT License.
